@@ -7,5 +7,5 @@ label_color: 666666
 github_application:
   client_id: b8bce109f9874204bd7f
   code_authenticator: https://ichiga.herokuapp.com/
-  callback_url: https://ichiga.github.io/public/html/gpgc_redirect/index.html
+  callback_url: https://ichiga.github.io/public/html/gpgc_redirect.html
 enable_diagnostics: false
