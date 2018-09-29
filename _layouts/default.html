@@ -3,19 +3,15 @@
 
   {%- include head.html -%}
 
+  {%- include header.html -%}
   <body>
-
-    {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-        {%- include gpgc_comments.html post_title=page.title -%}
-      </div>
-    </main>
-
-    {%- include footer.html -%}
-
+      <main class="page-content" aria-label="Content">
+          <div class="wrapper">
+              {{ content }}
+              {%- include gpgc_comments.html post_title=page.title -%}
+          </div>
+      </main>
   </body>
+  {%- include footer.html -%}
 
 </html>
