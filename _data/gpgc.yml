@@ -1,5 +1,5 @@
 repo_owner: ichiga
-repo_name: ichiga.github.io
+repo_name: https://ichiga.github.io
 disabled: false
 use_show_action: false
 label_name: Post Comments
@@ -8,4 +8,4 @@ github_application:
   client_id: b8bce109f9874204bd7f
   code_authenticator: https://ichiga.herokuapp.com/
   callback_url: https://ichiga.github.io/public/html/gpgc_redirect.html
-enable_diagnostics: true
+enable_diagnostics: false
